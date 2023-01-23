@@ -1,7 +1,5 @@
-# Homework 2 Black Friday Orders Manager in Java
+# Black Friday Orders Manager in Java
 
-*Author*: Vănuță George-Andrei \
-*Group*: 334CB \
 *Score*: 100 / 100
 
 ## Table of Contents
