@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-- [Homework 2 Black Friday Orders Manager in Java](#homework-2-black-friday-orders-manager-in-java)
+- [Black Friday Orders Manager in Java](#black-friday-orders-manager-in-java)
   - [Table of Contents](#table-of-contents)
   - [Main Thread](#main-thread)
   - [Level 1 Threads](#level-1-threads)
