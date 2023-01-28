@@ -56,7 +56,7 @@ ArrayList<LesserEmployee> lesserEmployees =
     new ArrayList<>(
      Stream.generate(() -> new LesserEmploye(ORDER_ID, productsLeft, productsReader))
         .limit(NR_PRODUCTS)
-       .collect(Collectors.toList())
+        .collect(Collectors.toList())
      );
 
 // submit them
