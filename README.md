@@ -35,12 +35,12 @@ ArrayList<MasterEmployee> masterEmployees =
 
 // submit them
 for (MasterEmployee masterEmployee : masterEmployees) {
- masterPool.submit(masterEmployee);
+   masterPool.submit(masterEmployee);
 }
 
 // wait for them to finish before closing the output files
 for (MasterEmployee masterEmployee : masterEmployees) {
-  masterEmployee.join();
+    masterEmployee.join();
 }
 ```
 
