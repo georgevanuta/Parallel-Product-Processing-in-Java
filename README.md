@@ -6,7 +6,7 @@
 
 - [Black Friday Orders Manager in Java](#black-friday-orders-manager-in-java)
   - [Table of Contents](#table-of-contents)
-  - [Threads]
+  - [Threads](#threads)
     - [Main Thread](#main-thread)
     - [Level 1 Threads](#level-1-threads)
     - [Level 2 Threads](#level-2-threads)
