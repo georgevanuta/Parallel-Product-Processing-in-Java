@@ -6,12 +6,15 @@
 
 - [Black Friday Orders Manager in Java](#black-friday-orders-manager-in-java)
   - [Table of Contents](#table-of-contents)
-  - [Main Thread](#main-thread)
-  - [Level 1 Threads](#level-1-threads)
-  - [Level 2 Threads](#level-2-threads)
+  - [Threads]
+    - [Main Thread](#main-thread)
+    - [Level 1 Threads](#level-1-threads)
+    - [Level 2 Threads](#level-2-threads)
   - [Synchronisation](#synchronisation)
 
-## Main Thread
+## Threads
+
+### Main Thread
 
 The Main class `Tema2.java` has the responsability of creating all of the **level 1** threads `MasterEmployee` and putting them in a
 pool of threads with a fixed size of **P** (`masterPool`).
@@ -44,7 +47,7 @@ for (MasterEmployee masterEmployee : masterEmployees) {
 }
 ```
 
-## Level 1 Threads
+### Level 1 Threads
 
 A **level 1** thread is represented by the `MasterEmployee.java` class. This type of thread reads lines from the `orders.txt` file and
 then starts spawning into the **level 2** thread pool (`lesserPool`), which also has a fixed size of **P** and is shared between **all level 1**
@@ -70,7 +73,7 @@ for (LesserEmployee lesserEmployee : lesserEmployees) {
 }
 ```
 
-## Level 2 Threads
+### Level 2 Threads
 
 A **level 2** thread is represented by the `LesserEmployee.java` class. This thread works by reading the `order_products_out.txt` file
 line by line. Once it finds a product corresponding to the **level 1** thread that spawned it, it "ships" the product before finishing
