@@ -1,8 +1,8 @@
-# Homework 2 Black Friday Orders Manager in Java BONUS
+# Black Friday Orders Manager in Java BONUS
 
 ## Table of Contents
 
-- [Homework 2 Black Friday Orders Manager in Java BONUS](#homework-2-black-friday-orders-manager-in-java-bonus)
+- [Black Friday Orders Manager in Java BONUS](#black-friday-orders-manager-in-java-bonus)
   - [Table of Contents](#table-of-contents)
   - [Synchronisation](#synchronisation)
     - [Orders](#orders)
