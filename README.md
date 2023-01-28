@@ -18,7 +18,7 @@
 
 The Main class `Tema2.java` has the responsability of creating all of the **level 1** threads `MasterEmployee` and putting them in a
 pool of threads with a fixed size of **P** (`masterPool`).
-Then, it waits for all **level 1** threads finish in order to not close the output files before all of them finish processing them.
+Then, it waits for all **level 1** threads to finish in order to not close the output files before all of them finish processing them.
 The method which puts **level 1** threads into the pool is called:
 
 ```java
